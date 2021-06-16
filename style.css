@@ -1,0 +1,37 @@
+div.content-area{
+    margin: auto;
+    padding: 5%;
+    /* background-color: rgb(207, 202, 230); */
+    width: 70vw;
+    height: 70vh;
+    font-size: 30px;
+}
+
+
+.visual-view{
+    height: 70vh;
+    outline: none;
+}
+
+div.toolbar {
+    width : 400px;
+    margin: auto;
+    padding: 2px;
+    height: 30px;
+    /* background-color: lightgray; */
+}
+
+.line {
+    padding: 2px;
+    margin: 1px;
+    border: 1px solid rgb(131, 126, 126)
+}
+
+.btn_ic{
+    color: rgb(0, 0, 0);
+}
+
+button{
+    border: none;
+    border-radius: 2px;
+}

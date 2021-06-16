@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    </head>
+    <body>
+        <div class="editor">
+
+            <div class= "toolbar">
+                <div class="line">
+                <button class="material-icons btn_ic" data-action="bold" id="btnbold" >format_bold</button>
+                <button class="material-icons btn_ic" data-action="italic"  id="btn_itl"> format_italic </button>
+                <button class="material-icons btn_ic" data-action="underline" id="btn_underline"> format_underlined</button>
+                <button class="material-icons btn_ic" data-action="strikeThrough">strikethrough_s</button>
+                <button class="material-icons btn_ic" data-action="insertOrderedList" id="btn_bullet"> format_list_numbered </button>
+                <button class="material-icons btn_ic" data-action="insertUnorderedList" id="btn_bullet_un"> format_list_bulleted </button>
+                <button class="material-icons btn_ic" data-action="justifyLeft" id="btn_bullet_un"> format_align_left </button>
+                <button class="material-icons btn_ic" data-action="justifyRight" id="btn_bullet_un"> format_align_right </button>
+                <button class="material-icons btn_ic" data-action="justifyFull" id="btn_bullet_un"> format_align_justify </button>
+                <button class="material-icons btn_ic" data-action="justifyCenter" id="btn_bullet_un"> format_align_center </button>
+                <button class="material-icons btn_ic" data-action="undo" id="btn_undo"> undo </button>
+            </div>
+            </div>
+            <div class="content-area">
+                <div class="visual-view" contenteditable="true" >
+                    <p style="text-align: center;">Welcome to my minimal <b>WYSIWYG</b> Editor <i>(What you see is what you get)</i>!</p>
+                    <p style="text-align: center;">It's only made of <u>HTML5</u>, <i><u>CSS3</u> </i>and pure <u>JavaScript</u>, <strike>no framework</strike>!</p>
+                    <p style="text-align: center;">Customize as you want :)</p>
+                    
+                </div>
+            </div>
+        </div>
+       
+    </body>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+        function SetToBold () {
+            document.execCommand ('bold', false, null);
+        }
+    </script>
+</html>
